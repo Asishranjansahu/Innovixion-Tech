@@ -7,7 +7,7 @@ function submitQuiz() {
     const answers = {
         q1: 'jupiter',
         q2: 'Naveen Pattnaik',
-        q3: 'microsoft',
+        q3: 'Microsoft',
         q4: '10080',
         q5: 'Lamb',
     };
