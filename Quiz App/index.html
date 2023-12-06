@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Quiz App</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What is the largest planet in our solar system?</p>
+                <label>
+                    <input type="radio" name="q1" value="mars"> Mars
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="jupiter"> Jupiter
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="venus"> Venus
+                </label>
+            </div>
+            <div class="question">
+                <p>2. Who is Chief Minister Of Odisha?</p>
+                <label>
+                    <input type="radio" name="q2" value="Naveen Pattnaik"> Naveen Pattnaik
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="Narendra Modi"> Narendra Modi
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="Mamata Banarji"> Mamata Banarji
+                </label>
+            </div>
+
+            <div class="question">
+                <p>3. What software company is headquartered in Redmond, Washington?</p>
+                <label>
+                    <input type="radio" name="q3" value="Microsoft"> Microsoft
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="Wipro"> Wipro
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="Google"> Google
+                </label>
+            </div>
+
+            <div class="question">
+                <p>4. How many minutes are in a full week?</p>
+                <label>
+                    <input type="radio" name="q4" value="02872"> 02872 
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="10080"> 10080
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="52628"> 52628
+                </label>
+            </div>
+
+            <div class="question">
+                <p>5. What meat is used in a shepherd's pie?</p>
+                <label>
+                    <input type="radio" name="q5" value="Lamb"> Lamb
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="asko"> asko
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="joos"> joos
+                </label>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+
+        <div id="result-container" style="display:none;">
+            <h2>Your Results</h2>
+            <p id="score"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
